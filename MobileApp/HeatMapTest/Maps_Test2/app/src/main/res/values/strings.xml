@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Maps_Test</string>
+    <string name="title_activity_heat_map">HeatMap</string>
+</resources>
