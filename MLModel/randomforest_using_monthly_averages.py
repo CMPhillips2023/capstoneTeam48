@@ -80,7 +80,7 @@ clf = RandomForestClassifier(n_estimators=100, random_state=42, verbose=1)
 clf.fit(X_train_scaled, y_train)
 
 # Checking the training and testing accuracy again
-train_accuracy = clf.score(X_train, y_train)
-test_accuracy = clf.score(X_test, y_test)
+train_accuracy = clf.score(X_train_scaled, y_train)
+test_accuracy = clf.score(X_test_scaled, y_test)
 
 train_accuracy, test_accuracy
